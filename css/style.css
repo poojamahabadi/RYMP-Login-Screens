@@ -1,0 +1,230 @@
+
+body{
+background: #ffffff;
+font-family: 'Helvetica';
+}
+@font-face {
+font-family: 'Helvetica';
+src: url('../fonts/Helvetica.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/Helvetica-Bold.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/helvetica-compressed-5871d14b6903a.otf'),url('../fonts/helvetica-light-587ebe5a59211.ttf'),url('../fonts/Helvetica-Oblique.ttf'),url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
+}
+.btn:hover,.btn:focus,.btn:active{
+outline: none;
+box-shadow: unset;
+}
+a:hover,a:active,a:focus{
+text-decoration: none;
+outline: none;
+}
+input.form-control:hover,input.form-control:active,input.form-control:focus,
+select.form-control:hover,select.form-control:active,select.form-control:focus{
+outline: none;
+box-shadow: unset;
+}
+.btn:hover,.btn:active,.btn:focus{
+outline: none;
+}
+
+
+.loginform{
+    display: flex;
+    align-items: center;
+}
+.loginform .leftlogin_image{
+width: 32%;
+height: 100vh;
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url('../images/login.png');
+}
+.loginform .rightloginform{
+width: 68%;
+background-size:contain;
+background-repeat: no-repeat;
+background-position: bottom right;
+background-image: url('../images/lion.svg');
+}
+.rightloginform h4{
+font-family: 'Helvetica Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+text-transform: capitalize;
+color: #315D80;
+margin: 0 0 25px 0;
+}
+.frgt_andemail{
+display: flex;
+justify-content: space-between;
+}
+.login_inputsdiv input.form-control{
+background: #EDF2FA;
+box-shadow: inset 4px 5px -1px rgba(57, 124, 238, 0.12);
+border-radius: 36px;
+border:unset;
+font-family: 'Helvetica';
+font-size: 14px;
+height: 46px;
+padding: 3px 20px 3px 20px;
+}
+.login_inputsdiv .input-group-text{
+background: #EDF2FA;
+box-shadow: 4px 0px 0px rgb(237 242 250);
+border-radius: 36px;
+border: unset;
+padding: 3px 20px 3px 20px;
+}
+.login_inputsdiv input.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color:#6388A5;
+}
+.login_inputsdiv input.form-control::-moz-placeholder { /* Firefox 19+ */
+color:#6388A5;
+}
+.login_inputsdiv input.form-control:-ms-input-placeholder { /* IE 10+ */
+color:#6388A5;
+}
+.login_inputsdiv input.form-control:-moz-placeholder { /* Firefox 18- */
+color:#6388A5;
+}
+.login_inputsdiv input.form-control::placeholder{
+color:#6388A5;
+}
+.form_div{
+width: 60%;
+margin:0 auto;
+}
+.rememberemail label.form-check-label{
+color:#315D80;
+font-size: 14px;
+text-transform: capitalize;
+}
+.checkbox-round {
+width: 11px;
+height: 11px;
+background-color: white;
+border-radius: 4px;
+vertical-align: middle;
+border: 1px solid #315D80;
+appearance: none;
+-webkit-appearance: none;
+outline: none;
+cursor: pointer;
+}
+.forgetdiv a{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 500;   
+color:#315D80;
+font-size: 14px;
+}
+.checkbox-round:checked {
+background-color: #315D80;
+border: 1px solid #000000;
+}
+.accountcreate_btn .btn.accountbtn,.getstarted_btn .btn.btnget_start{
+width: 100%;
+border-radius: 100px;
+font-family: 'Helvetica Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color: #FFFFFF;
+border: unset;
+padding: 10px 15px;
+}
+.getstarted_btn .btn.btnget_start{
+box-shadow: 4px 4px 12px rgba(218, 104, 98, 0.5), -1px -1px 10px rgba(255, 170, 178, 0.5), inset 7px 7px 15px #FFB0AB;
+background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
+}
+.accountcreate_btn .btn.accountbtn{
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+}
+.social_img{
+display: flex;
+justify-content: center;
+margin: 0 0 2em 0;
+}
+.social_mediadiv p{
+font-family: 'Helvetica';
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-transform: capitalize;
+color: #315D80;
+}
+.social_img img{
+margin: 0 17px;
+}
+.social_mediadiv{
+text-align: center;
+margin: 2em 0 0 0;
+}
+.form_div h4{
+text-align: center;
+}
+.selectoptiondiv .media{
+background: #EDF2FA;
+box-shadow: 5px 4px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
+border-radius: 17px;
+align-items: center;
+padding: 13px;
+margin: 0 0 20px 0;
+}
+.selectoptiondiv .media .media-body h2{
+font-family: 'Helvetica Rounded';
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-transform: capitalize;
+color: #315D80;
+margin:0 10px 0 20px;
+}
+.media h3{
+    font-family: 'Helvetica Light';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #315D80;
+    margin: 0px 3em 0 0px;
+}
+.selectoptiondiv .media a{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.choose_option_block h2{
+font-family: 'Helvetica Rounded';
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin: 0 0 20px 0;
+}
+.choose_option_block{
+background: linear-gradient(180deg, #315D80 0%, #315D80 65.18%);
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
+border-radius: 14px 14px 0 0;
+padding: 2em 1em;
+text-align: center;
+width: 77%;
+margin: 0 auto;
+}
+.choose_option_block p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+margin:0;
+}
+.optionwidth_div{
+width: 60%;
+margin:0 auto
+}
