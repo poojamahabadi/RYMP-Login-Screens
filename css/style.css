@@ -228,3 +228,17 @@ margin:0;
 width: 60%;
 margin:0 auto
 }
+.createacc_btn{
+    margin:1.5em 0 0 0;
+}
+.loginnow .getstarted_btn .btn.btnget_start{
+background: #315D80;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
+border-radius: 40px;
+}
+.social_mediadiv.loginnow{
+    margin: 4em 0 0 0;
+}
+.social_mediadiv.loginnow .createacc_btn {
+    margin: 1em 0 0 0;
+}
