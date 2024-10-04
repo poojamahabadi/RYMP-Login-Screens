@@ -1,0 +1,318 @@
+@media only screen and (max-width: 1920px) and (min-width: 992px)  {
+    .social_mediadiv {
+        margin: 4em 0 4em 0;
+    }
+    .login_inputsdiv .input-group-text {
+        padding: 3px 11px 3px 5px;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1367px)  {
+    .loginform .leftlogin_image {
+        width: 39%;
+    } 
+    .loginform .rightloginform {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1536px) and (min-width: 1401px)  {
+
+}
+@media only screen and (max-width: 1400px) and (min-width: 1367px)  {
+    .form_div {
+        width: 73%;
+    }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1281px) {
+    .loginform .rightloginform {
+        width: 67%;
+    }
+    .loginform .leftlogin_image {
+        width: 32%;
+    }
+    .social_mediadiv {
+        margin: 2.5em 0;
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1201px) {
+    .loginform .leftlogin_image {
+        width: 34%;
+    }
+    .loginform .rightloginform {
+        width: 63%;
+    }
+    .form_div {
+        width: 73%;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1137px) {
+    .loginform .leftlogin_image {
+        width: 35%;
+    }
+    .loginform .rightloginform {
+        width: 64%;
+    }
+    .social_mediadiv {
+        margin: 2.3em 0 2.3em 0;
+    }
+    .form_div {
+        width: 77%;
+    }
+}
+@media only screen and (max-width: 1136px) and (min-width: 1081px) {
+    .loginform .leftlogin_image {
+        width: 39%;
+    }
+    .loginform .rightloginform {
+        width: 61%;
+    }
+    .social_mediadiv {
+        margin: 2.3em 0 2.3em 0;
+    }
+    .form_div {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 1080px) and (min-width: 1025px) {
+    .loginform .leftlogin_image {
+        width: 43%;
+    }
+    .loginform .rightloginform {
+        width: 56%;
+    }
+    .form_div {
+        width: 87%;
+    }
+    .social_mediadiv {
+        margin: 2.4em 0;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+    .loginform .leftlogin_image {
+        width: 47%;
+    }
+    .form_div {
+        width: 90%;
+    }
+    .loginform .rightloginform {
+        width: 52%;
+    }
+    .social_mediadiv {
+        margin: 2.4em 0;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 801px) {
+    .loginform .leftlogin_image {
+        width: 43%;
+    }
+    .loginform .rightloginform {
+        width: 56%;
+    }
+    .form_div {
+        width: 96%;
+    }
+    .social_mediadiv {
+        margin: 2.4em 0;
+    }
+    .loginform .rightloginform {
+        width: 49%;
+    }
+    .loginform .leftlogin_image {
+        width: 49%;
+    }
+    .createform .login_inputsdiv .input-group-text {
+        padding: 3px 7px 3px 5px;
+    }
+    .createform .login_inputsdiv input.form-control {
+        padding: 3px 7px 3px 13px;
+    }
+    .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+    .loginform .leftlogin_image {
+        width: 49%;
+    }
+    .loginform .rightloginform {
+        width: 49%;
+    }
+    .form_div {
+        width: 98%;
+    }
+    .rightloginform h4 {
+        font-size: 27px;
+    }
+    .createform .login_inputsdiv .input-group-text {
+        padding: 3px 7px 3px 5px;
+    }
+    .createform .login_inputsdiv input.form-control {
+        padding: 3px 7px 3px 13px;
+    }
+    .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+    .loginform .leftlogin_image {
+        width: 54%;
+    }
+    .loginform .rightloginform {
+        width: 45%;
+    }
+    .form_div {
+        width: 99%;
+    }
+    .rightloginform h4 {
+        font-size: 29px;
+    }
+    .social_mediadiv p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 576px){
+    .loginform .rightloginform {
+        width: 45%;
+    }
+    .loginform .leftlogin_image {
+        width: 54%;
+    }
+    .form_div {
+        width: 100%;
+    }
+    .rightloginform h4 {
+        font-size: 24px;
+    }
+    .rememberemail label.form-check-label,.forgetdiv a {
+        font-size: 12px;
+    }
+    .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+        font-size: 15px;
+    }
+    .social_mediadiv p {
+        font-size: 14px;
+    }
+    .social_img img {
+        height: 42px;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 320px){
+.mobile_headerview{
+    display:block;
+}
+.loginform .rightloginform{
+    background-image: unset;
+}
+.loginform .leftlogin_image{
+    display: none;
+}
+.loginform .rightloginform{
+    width: 100%;
+}
+.form_div {
+    width: 80%;
+}
+.social_mediadiv {
+    margin: 3em 0 3em 0;
+}
+.social_img img {
+    margin: 0 11px;
+}
+.accountcreate_btn{
+    margin:0 0 4em 0;
+}
+.accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 480px) and (min-width: 415px){
+    .logomobile {
+        padding: 0 0 0 4em;
+    }
+    .headermobile {
+        padding: 0px 2em;
+    }
+    .rightloginform h4 {
+        font-size: 28px;
+    }
+    .form_div {
+        width: 93%;
+    }
+    .accountcreate_btn {
+        margin: 0 0 3em 0;
+    }
+    .mobile_headerview {
+        height: 138px;
+    }
+    .headermobile {
+        height: 84px;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 394px){
+    .form_div {
+        width: 93%;
+    }
+    .headermobile {
+        height: 80px;
+        padding: 0px 1em;
+    }
+    .mobile_headerview {
+        height: 127px;
+    }
+    .logomobile {
+        padding: 0 0 0 3em;
+    }
+    .rightloginform h4 {
+        font-size: 27px;
+    }
+    .accountcreate_btn {
+        margin: 0 0 2em 0;
+    }
+}
+
+@media only screen and (max-width: 393px) and (min-width: 361px){
+    .form_div {
+        width: 95%;
+    }
+    .mobile_headerview {
+        height: 133px;
+    }
+    .headermobile {
+        height: 93px;
+        padding: 0px 1em;
+    }
+    .rightloginform h4 {
+        font-size: 27px;
+    }
+    .logomobile {
+        padding: 0 0 0 2.4em;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 320px){
+    .form_div {
+        width: 95%;
+    }  
+    .rightloginform h4 {
+        font-size: 24px;
+    }
+    .mobile_headerview {
+        height: 133px;
+    }
+    .headermobile {
+        height: 97px;
+        padding: 0px 1em;
+    }
+    .logomobile {
+        padding: 0 0 0 1.5em;
+    }
+}
+
+@media only screen and (max-width: 340px) and (min-width: 320px){
+.logomobile a img{
+    height: 48px;
+}
+}

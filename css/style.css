@@ -60,7 +60,7 @@ justify-content: space-between;
 }
 .login_inputsdiv input.form-control{
 background: #EDF2FA;
-box-shadow: inset 4px 5px -1px rgba(57, 124, 238, 0.12);
+box-shadow: inset 4px 1px 3px rgba(57, 124, 238, 0.12);
 border-radius: 36px;
 border:unset;
 font-family: 'Helvetica';
@@ -241,4 +241,33 @@ border-radius: 40px;
 }
 .social_mediadiv.loginnow .createacc_btn {
     margin: 1em 0 0 0;
+}
+.mobile_headerview{
+    display:none;
+}
+.mobile_headerview {
+    background-repeat: no-repeat;
+    background-image: url(../images/mobilehead.svg);
+    background-size: cover;
+    background-position: bottom;
+    height: 150px;
+}
+.arrowmobile a{
+background: #376990;
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05), inset 2px 4px 10px 1px #468DC4;
+border-radius: 30px;
+padding: 14px 11px;
+}
+.arrowmobile a i {
+    color: #EEF4FF;
+    font-size: 20px;
+}
+.headermobile{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0px 3em;
+}
+.logomobile{
+    padding: 0 0 0 5em;
 }

@@ -1,0 +1,24 @@
+<svg width="390" height="214" viewBox="0 0 390 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_di_6533_832)">
+<path d="M-65 130.5C-65 98.7436 -39.2564 73 -7.5 73H396.5C428.256 73 454 98.7436 454 130.5C454 162.256 428.256 188 396.5 188H361.808C353.91 188 346.173 185.768 339.489 181.561C332.805 177.353 325.068 175.121 317.17 175.121H63.0313C55.9989 175.121 49.1521 177.378 43.4985 181.561C37.8448 185.743 30.998 188 23.9656 188H-7.5C-39.2564 188 -65 162.256 -65 130.5Z" fill="#315D80"/>
+</g>
+<path d="M-58 44C-58 16.3858 -35.6142 -6 -8 -6H411.318C438.933 -6 461.318 16.3858 461.318 44C461.318 71.6142 438.933 94 411.318 94H368.642C360.986 94 353.454 92.0744 346.737 88.4005C340.02 84.7266 332.487 82.801 324.832 82.801H69.6303C62.8698 82.801 56.2518 84.7448 50.565 88.4005C44.8782 92.0563 38.2602 94 31.4997 94H-8.00003C-35.6143 94 -58 71.6142 -58 44Z" fill="#315D80"/>
+<defs>
+<filter id="filter0_di_6533_832" x="-86.9" y="55.1" width="562.8" height="158.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10.95"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.234896 0 0 0 0 0.332874 0 0 0 0 0.5125 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6533_832"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6533_832" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.301389 0 0 0 0 0.493232 0 0 0 0 0.645833 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_6533_832"/>
+</filter>
+</defs>
+</svg>
