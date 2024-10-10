@@ -65,7 +65,7 @@ height: 77px;
     line-height: 32px;
 }
 .social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
+margin: 2em 0 1em 0;
 }
 .social_mediadiv {
 margin: 2em 0;
@@ -74,6 +74,16 @@ margin: 2em 0;
 @media only screen and (max-width: 1280px) and (min-width: 1201px) {
 .loginform .leftlogin_image {
 width: 35%;
+}
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
+.social_mediadiv.loginnow {
+    margin: 2em 0 1em 0;
+}
+.optionwidth_div {
+    width: 71%;
 }
 .passwd_success h4 {
     font-size: 28px;
@@ -102,6 +112,19 @@ height: 80px;
 .loginform .leftlogin_image {
 width: 35%;
 }
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
+.social_mediadiv.loginnow {
+    margin: 2em 0 1em 0;
+}
+.optionwidth_div {
+    width: 76%;
+}
+.choose_option_block {
+    width: 87%;
+}
 .passwd_success h4 {
     font-size: 28px;
     width: 70%;
@@ -114,9 +137,6 @@ width: 35%;
 bottom: 85px;
 left: 9%;
 height: 75px;
-}
-.social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
 width: 64.5%;
@@ -132,6 +152,16 @@ width: 77%;
 .loginform .leftlogin_image {
 width: 34%;
 }
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
+.social_mediadiv.loginnow {
+    margin: 2em 0 1em 0;
+}
+.optionwidth_div {
+    width: 76%;
+}
 .passwd_success h4 {
     font-size: 28px;
     width: 67%;
@@ -144,12 +174,6 @@ width: 34%;
 bottom: 70px;
 left: 6%;
 height: 78px;
-}
-.rightloginform h4 {
-font-size: 28px;
-}
-.social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
 width: 65.5%;
@@ -165,6 +189,19 @@ width: 85%;
 .loginform .leftlogin_image {
 width: 43%;
 }
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
+.social_mediadiv.loginnow {
+    margin: 2em 0 1em 0;
+}
+.optionwidth_div {
+    width: 92%;
+}
+.selectoptiondiv .media h3 {
+    margin: 5px 0em 0 37px;
+}
 .passwd_success h4 {
     font-size: 28px;
     width: 67%;
@@ -177,12 +214,6 @@ width: 43%;
 bottom: 84px;
 left: 9%;
 }
-.rightloginform h4 {
-font-size: 28px;
-}
-.social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
-}
 .loginform .rightloginform {
 width: 56%;
 }
@@ -194,6 +225,9 @@ margin: 2.4em 0;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 993px) {
+    .optionwidth_div {
+        width: 95%;
+    }
 .loginform .leftlogin_image {
 width: 41%;
 }
@@ -214,10 +248,11 @@ left: 9%;
 height: 78px;
 }
 .rightloginform h4 {
-font-size: 28px;
+    font-size: 27px;
+    line-height: 25px;
 }
 .social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 .form_div {
 width: 90%;
@@ -230,6 +265,9 @@ margin: 2.4em 0;
 .rightloginform h4 {
 font-size: 28px;
 }
+.optionwidth_div {
+    width: 95%;
+}
 .passwd_success h4 {
     font-size: 28px;
     width: 67%;
@@ -240,9 +278,6 @@ font-size: 28px;
 }
 .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
     font-size: 16px;
-}
-.social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
 }
 .loginform .leftlogin_image {
 width: 45%;
@@ -270,10 +305,39 @@ padding: 3px 7px 3px 13px;
 .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
 font-size: 16px;
 }
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
+.social_mediadiv.loginnow {
+    margin: 2em 0 1em 0;
+}
 }
 @media only screen and (max-width: 800px) and (min-width: 769px) {
 .loginform .leftlogin_image {
 width: 45%;
+}
+.selectoptiondiv .media h3 {
+    margin: 5px 0em 0 11px;
+    font-size: 13px;
+}
+.choose_option_block h2 {
+    font-size: 16px;
+    margin: 0 0 11px 0;
+}
+.selectoptiondiv .media img{
+    height: 71px;
+}
+.choose_option_block {
+    width: 87%;
+}
+.selectoptiondiv .media .media-body h2 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 10px 0 13px;
+}
+.optionwidth_div {
+    width: 95%;
 }
 .rightloginform .passwd_success h4 {
     font-size: 28px;
@@ -286,16 +350,17 @@ width: 45%;
 .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
     font-size: 16px;
 }
-.rightloginform h4 {
-font-size: 24px;
-}
 .loginform .leftlogin_image img {
     bottom: 63px;
     left: 9%;
     height: 67px;
 }
+.rightloginform h4 {
+    font-size: 27px;
+    line-height: 25px;
+}
 .social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 .loginform .rightloginform {
 width: 54.5%;
@@ -320,6 +385,32 @@ font-size: 16px;
 .loginform .leftlogin_image {
 width: 48%;
 }
+.selectoptiondiv .media img{
+    height: 71px;
+}
+.selectoptiondiv .media .media-body h2 {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 6px 0 7px;
+}
+.selectoptiondiv .media {
+    padding: 10px;
+}
+.selectoptiondiv .media h3 {
+    margin: 5px 0em 0 23px;
+}
+.choose_option_block h2 {
+    font-size: 16px;
+    margin: 0px 0 5px 0;
+}
+.choose_option_block {
+    width: 88%;
+    padding: 1.3em 1em;
+}
+.optionwidth_div {
+    width: 100%;
+    margin: 0 auto;
+}
 .rightloginform .passwd_success h4 {
     font-size: 25px;
     width: 100%;
@@ -338,9 +429,13 @@ width: 48%;
     margin: 2em 0 0 0;
 }
 .loginform .leftlogin_image img {
-    bottom: 52px;
-    left: 12%;
-    height: 62px;
+    bottom: 51px;
+    left: 13%;
+    height: 56px;
+}
+.optionwidth_div .media h3 {
+    font-size: 13px;
+    line-height: 17px;
 }
 .loginform .rightloginform {
 width: 50%;
@@ -352,16 +447,43 @@ width: 99%;
 font-size: 14px;
 }
 .rightloginform h4 {
-font-size: 24px;
+    font-size: 27px;
+    line-height: 25px;
 }
 .social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 576px){
 .loginform .rightloginform {
 width: 49%;
+}
+.optionwidth_div {
+    width: 100%;
+}
+.selectoptiondiv .media img{
+    height: 71px;
+}
+.choose_option_block h2 {
+    font-size: 17px;
+    line-height: 22px;
+    margin: 0 0 10px 0;
+}
+.selectoptiondiv .media img {
+    height: 61px;
+}
+.choose_option_block {
+    padding: 2em 1em 1em 1em;
+    width: 87%;
+}
+.selectoptiondiv .media h3 {
+    margin: 5px 0em 0 0px;
+}
+.selectoptiondiv .media .media-body h2 {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0 9px 0 9px;
 }
 .rightloginform .passwd_success h4 {
     font-size: 25px;
@@ -389,10 +511,11 @@ width: 50%;
 width: 100%;
 }
 .rightloginform h4 {
-font-size: 24px;
+    font-size: 27px;
+    line-height: 25px;
 }
 .social_mediadiv.loginnow {
-margin: 3em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 .rightloginform h4 {
 font-size: 24px;
@@ -414,6 +537,42 @@ height: 42px;
 @media only screen and (max-width: 575px) and (min-width: 100px){
 .mobile_headerview{
 display:block;
+}
+.choose_option_block h2,.choose_option_block p {
+color:#315D80;
+}
+.login_inputsdiv.creat_login input.form-control {
+    height: 46px;
+}
+.creat_login .form-group {
+    margin-bottom: 15px;
+}
+.app_flex{
+    display: flex;
+    flex-direction: column;
+}
+.selectoptiondiv .media h3 {
+    margin: 4px 0 0 20px;
+}
+.optionwidth_div .media img{
+    height: 85px;
+}
+.optionwidth_div{
+    width: 85%;
+}
+.choose_option_block p{
+    font-size: 14px;
+}
+.choose_option_block h2 {
+    margin: 0 0 45px 0;
+    font-size: 25px;
+    line-height: 34px;
+}
+.choose_option_block {
+    width: 100%;
+    padding: 1.8em 1em 1.3em 1em;
+    background: unset;
+    box-shadow: unset;
 }
 .pass_inputsdiv {
     margin: 3.5em 0;
@@ -484,6 +643,12 @@ font-size: 16px;
 .logomobile {
 padding: 0 0 0 4em;
 }
+.tnc{
+    text-align: center;
+}
+.optionwidth_div {
+    width: 95%;
+}
 .verfi_section {
     margin: 2.5em 0 0 0;
 }
@@ -514,6 +679,12 @@ height: 84px;
 @media only screen and (max-width: 414px) and (min-width: 394px){
 .form_div {
 width: 93%;
+}
+.tnc{
+    text-align: center;
+}
+.optionwidth_div {
+    width: 95%;
 }
 .rightloginform .passwd_success h4 {
     font-size: 30px;
@@ -551,6 +722,26 @@ font-size: 27px;
 .form_div {
 width: 95%;
 }
+.tnc{
+    text-align: center;
+}
+.optionwidth_div .media img {
+    height: 66px;
+}
+.selectoptiondiv .media .media-body h2,.selectoptiondiv .media h3{
+    margin: 4px 0 0 10px;
+}
+.optionwidth_div {
+    width: 100%;
+}
+.selectoptiondiv .media .media-body h2 {
+    font-size: 16px;
+    line-height: 22px;
+}
+.choose_option_block h2 {
+    font-size: 25px;
+    line-height: 34px;
+}
 .rightloginform .passwd_success h4 {
     font-size: 30px;
     line-height: 37px;
@@ -587,12 +778,38 @@ padding: 0 0 0 2.4em;
 .social_img img {
 height: 40px;
 }
+.choose_option_block h2 {
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0 0 27px 0;
+}
 }
 
 @media only screen and (max-width: 360px) and (min-width: 320px){
 .form_div {
 width: 95%;
 }  
+.tnc{
+    text-align: center;
+}
+.optionwidth_div .media img {
+    height: 66px;
+}
+.selectoptiondiv .media .media-body h2,.selectoptiondiv .media h3{
+    margin: 4px 0 0 10px;
+}
+.choose_option_block h2 {
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0 0 27px 0;
+}
+.optionwidth_div {
+    width: 100%;
+}
+.selectoptiondiv .media .media-body h2 {
+    font-size: 16px;
+    line-height: 22px;
+}
 .verfi_section {
     margin: 2.5em 0 0 0;
 }
@@ -627,6 +844,9 @@ padding: 0 0 0 1.5em;
 @media only screen and (max-width: 340px) and (min-width: 320px){
 .logomobile a img{
 height: 48px;
+}
+.tnc {
+    text-align: left;
 }
 }
 @media only screen and (max-width: 319px) and (min-width: 200px){
