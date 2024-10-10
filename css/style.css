@@ -5,7 +5,12 @@ font-family: 'Helvetica';
 }
 @font-face {
 font-family: 'Helvetica';
-src: url('../fonts/Helvetica.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/Helvetica-Bold.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),url('../fonts/helvetica-compressed-5871d14b6903a.otf'),url('../fonts/helvetica-light-587ebe5a59211.ttf'),url('../fonts/Helvetica-Oblique.ttf'),url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
+src: url('../fonts/Helvetica.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),
+url('../fonts/Helvetica-Bold-Font.ttf'),url('../fonts/Helvetica-BoldOblique.ttf'),
+url('../fonts/helvetica-compressed-5871d14b6903a.otf'),
+url('../fonts/helvetica-light-587ebe5a59211.ttf'),
+url('../fonts/Helvetica-Oblique.ttf'),
+url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
 }
 .btn:hover,.btn:focus,.btn:active{
 outline: none;
@@ -26,16 +31,23 @@ outline: none;
 
 
 .loginform{
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 .loginform .leftlogin_image{
 width: 32%;
+position: relative;
 height: 100vh;
 background-size:100% 100%;
 background-repeat: no-repeat;
 background-position: center;
 background-image: url('../images/login.png');
+}
+.loginform .leftlogin_image img{
+position: absolute;
+bottom: 71px;
+left: 23%;
+height: 85px;
 }
 .loginform .rightloginform{
 width: 68%;
@@ -45,7 +57,7 @@ background-position: bottom right;
 background-image: url('../images/lion.svg');
 }
 .rightloginform h4{
-font-family: 'Helvetica Rounded';
+font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -60,9 +72,9 @@ justify-content: space-between;
 }
 .login_inputsdiv input.form-control{
 background: #EDF2FA;
-box-shadow: inset 4px 1px 3px rgba(57, 124, 238, 0.12);
 border-radius: 36px;
 border:unset;
+text-transform: capitalize;
 font-family: 'Helvetica';
 font-size: 14px;
 height: 46px;
@@ -70,7 +82,6 @@ padding: 3px 20px 3px 20px;
 }
 .login_inputsdiv .input-group-text{
 background: #EDF2FA;
-box-shadow: 4px 0px 0px rgb(237 242 250);
 border-radius: 36px;
 border: unset;
 padding: 3px 20px 3px 20px;
@@ -125,18 +136,17 @@ border: 1px solid #000000;
 .accountcreate_btn .btn.accountbtn,.getstarted_btn .btn.btnget_start{
 width: 100%;
 border-radius: 100px;
-font-family: 'Helvetica Rounded';
-font-style: normal;
-font-weight: 700;
+font-family: 'Helvetica';
+font-weight: bold;
 font-size: 18px;
 line-height: 27px;
 text-transform: capitalize;
 color: #FFFFFF;
 border: unset;
-padding: 10px 15px;
+padding: 4px 15px;
+height: 44px;
 }
 .getstarted_btn .btn.btnget_start{
-box-shadow: 4px 4px 12px rgba(218, 104, 98, 0.5), -1px -1px 10px rgba(255, 170, 178, 0.5), inset 7px 7px 15px #FFB0AB;
 background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
 }
 .accountcreate_btn .btn.accountbtn{
@@ -184,17 +194,17 @@ color: #315D80;
 margin:0 10px 0 20px;
 }
 .media h3{
-    font-family: 'Helvetica Light';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 19px;
-    color: #315D80;
-    margin: 0px 3em 0 0px;
+font-family: 'Helvetica Light';
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+color: #315D80;
+margin: 0px 3em 0 0px;
 }
 .selectoptiondiv .media a{
-    display: flex;
-    width: 100%;
-    align-items: center;
+display: flex;
+width: 100%;
+align-items: center;
 }
 .choose_option_block h2{
 font-family: 'Helvetica Rounded';
@@ -229,7 +239,7 @@ width: 60%;
 margin:0 auto
 }
 .createacc_btn{
-    margin:1.5em 0 0 0;
+margin:1.5em 0 0 0;
 }
 .loginnow .getstarted_btn .btn.btnget_start{
 background: #315D80;
@@ -237,20 +247,20 @@ box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
 }
 .social_mediadiv.loginnow{
-    margin: 4em 0 0 0;
+margin: 4em 0 0 0;
 }
 .social_mediadiv.loginnow .createacc_btn {
-    margin: 1em 0 0 0;
+margin: 1em 0 0 0;
 }
 .mobile_headerview{
-    display:none;
+display:none;
 }
 .mobile_headerview {
-    background-repeat: no-repeat;
-    background-image: url(../images/mobilehead.svg);
-    background-size: cover;
-    background-position: bottom;
-    height: 150px;
+background-repeat: no-repeat;
+background-image: url(../images/mobilehead.svg);
+background-size: cover;
+background-position: bottom;
+height: 150px;
 }
 .arrowmobile a{
 background: #376990;
@@ -259,15 +269,101 @@ border-radius: 30px;
 padding: 14px 11px;
 }
 .arrowmobile a i {
-    color: #EEF4FF;
-    font-size: 20px;
+color: #EEF4FF;
+font-size: 20px;
 }
 .headermobile{
-    display: flex;
-    align-items: center;
-    height: 90px;
-    padding: 0px 3em;
+display: flex;
+align-items: center;
+height: 90px;
+padding: 0px 3em;
 }
 .logomobile{
-    padding: 0 0 0 5em;
+padding: 0 0 0 5em;
+}
+.try_div,.back_login{
+text-align: center;
+}
+.try_div p{
+font-size: 13px;
+}
+.try_div p,.back_login a{
+font-family: 'Helvetica';
+font-weight: 400;
+line-height: 19px;
+color: #315D80;
+}
+.back_login a{
+font-size: 14px;
+}
+.try_div{
+margin:2em 0;
+}
+.back_login{
+margin:4em 0 1em 0; 
+text-transform: capitalize;
+}
+.create_passwd .input-group .input-group-text{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+text-transform: capitalize;
+color: #9BB997;
+}
+.verfi_section p{
+font-family: 'Helvetica';
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #315D80;
+text-align: center;
+margin:0;
+}
+.flex_inpt_div{
+display: flex;
+margin:1.5em 0 0 0;
+}
+.login_inputsdiv .flex_inpt_div input.form-control{
+text-align: center;
+width: 93%;
+margin: 0 auto;
+height: 55px;
+}
+.verfi_section{
+margin:2.5em 0 0 0;
+}
+.verif_txt{
+margin:1em 0 2.5em 0; 
+}
+.create_passwd p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+text-align: center;
+color: #315D80;
+margin: 0;
+}
+.save_pass_div{
+margin:2em 0 0 0;
+}
+.save_newpass{
+margin:4em 0 0 0;
+}
+.passwd_success h4 span.green_clr{
+color:#9BB997;
+}
+.passwd_success h4{
+width: 75%;
+margin: 0 auto;
+font-size: 28px;
+line-height: 32px;
+}
+.pass_inputsdiv{
+text-align: center;
+margin: 2.5em 0;
+}
+.pass_inputsdiv img{
+height: 95px;
 }

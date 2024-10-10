@@ -5,35 +5,67 @@ margin: 4em 0 4em 0;
 .login_inputsdiv .input-group-text {
 padding: 3px 11px 3px 5px;
 }
+.loginform .leftlogin_image {
+width: 30%;
+}
+.loginform .rightloginform {
+width: 69.5%;
+}
+.loginform .leftlogin_image img{
+bottom: 70px;
+left: 13%;
+height: 85px;
+}
+.passwd_success h4 {
+    font-size: 35px;
+    line-height: 38px;
+}
+.pass_inputsdiv img {
+    height: 148px;
+}
 }
 @media only screen and (max-width: 1600px) and (min-width: 1367px)  {
-.loginform .leftlogin_image {
-width: 39%;
-} 
-.loginform .rightloginform {
-width: 60%;
-}
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
+}
+.loginform .leftlogin_image img {
+bottom: 82px;
+left: 10%;
 }
 }
 @media only screen and (max-width: 1536px) and (min-width: 1401px)  {
-
+.loginform .leftlogin_image img {
+bottom: 71px;
+left: 6%;
+}
 }
 @media only screen and (max-width: 1400px) and (min-width: 1367px)  {
 .form_div {
 width: 73%;
 }
+.pass_inputsdiv img {
+    height: 133px;
+}
+.loginform .leftlogin_image img {
+bottom: 71px;
+left: 6%;
+}
 }
 @media only screen and (max-width: 1366px) and (min-width: 1281px) {
-.loginform .rightloginform {
-width: 67%;
+.loginform .leftlogin_image img {
+bottom: 70px;
+left: 8%;
+height: 77px;
+}
+.pass_inputsdiv img {
+    height: 95px;
+}
+.passwd_success h4 {
+    font-size: 28px;
+    line-height: 32px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
-}
-.loginform .leftlogin_image {
-width: 32%;
+margin: 3em 0 1em 0;
 }
 .social_mediadiv {
 margin: 2em 0;
@@ -41,27 +73,53 @@ margin: 2em 0;
 }
 @media only screen and (max-width: 1280px) and (min-width: 1201px) {
 .loginform .leftlogin_image {
-width: 34%;
+width: 35%;
+}
+.passwd_success h4 {
+    font-size: 28px;
+    width: 70%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 95px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
-width: 63%;
+width: 64.5%;
 }
 .form_div {
 width: 73%;
+}
+.loginform .leftlogin_image img {
+bottom: 85px;
+left: 9%;
+height: 80px;
 }
 }
 @media only screen and (max-width: 1200px) and (min-width: 1137px) {
 .loginform .leftlogin_image {
 width: 35%;
 }
+.passwd_success h4 {
+    font-size: 28px;
+    width: 70%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 95px;
+}
+.loginform .leftlogin_image img {
+bottom: 85px;
+left: 9%;
+height: 75px;
+}
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
-width: 64%;
+width: 64.5%;
 }
 .social_mediadiv {
 margin: 2.3em 0 2.3em 0;
@@ -72,16 +130,29 @@ width: 77%;
 }
 @media only screen and (max-width: 1136px) and (min-width: 1081px) {
 .loginform .leftlogin_image {
-width: 39%;
+width: 34%;
+}
+.passwd_success h4 {
+    font-size: 28px;
+    width: 67%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 95px;
+}
+.loginform .leftlogin_image img {
+bottom: 70px;
+left: 6%;
+height: 78px;
 }
 .rightloginform h4 {
-    font-size: 28px;
+font-size: 28px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
-width: 61%;
+width: 65.5%;
 }
 .social_mediadiv {
 margin: 2.3em 0 2.3em 0;
@@ -94,11 +165,23 @@ width: 85%;
 .loginform .leftlogin_image {
 width: 43%;
 }
-.rightloginform h4 {
+.passwd_success h4 {
     font-size: 28px;
+    width: 67%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 120px;
+}
+.loginform .leftlogin_image img {
+bottom: 84px;
+left: 9%;
+}
+.rightloginform h4 {
+font-size: 28px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
 width: 56%;
@@ -112,48 +195,71 @@ margin: 2.4em 0;
 }
 @media only screen and (max-width: 1024px) and (min-width: 993px) {
 .loginform .leftlogin_image {
-width: 47%;
+width: 41%;
+}
+.passwd_success h4 {
+    font-size: 28px;
+    width: 67%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 120px;
+}
+.loginform .rightloginform {
+width: 58.5%;
+}
+.loginform .leftlogin_image img {
+bottom: 70px;
+left: 9%;
+height: 78px;
 }
 .rightloginform h4 {
-    font-size: 28px;
+font-size: 28px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .form_div {
 width: 90%;
-}
-.loginform .rightloginform {
-width: 52%;
 }
 .social_mediadiv {
 margin: 2.4em 0;
 }
 }
 @media only screen and (max-width: 992px) and (min-width: 801px) {
-.loginform .leftlogin_image {
-width: 43%;
-}
 .rightloginform h4 {
+font-size: 28px;
+}
+.passwd_success h4 {
     font-size: 28px;
+    width: 67%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 130px;
+}
+.accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+    font-size: 16px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
+}
+.loginform .leftlogin_image {
+width: 45%;
 }
 .loginform .rightloginform {
-width: 56%;
+width: 54.5%;
+}
+.loginform .leftlogin_image img {
+    left: 12%;
+    bottom: 61px;
+    height: 75px;
 }
 .form_div {
 width: 96%;
 }
 .social_mediadiv {
 margin: 2.4em 0;
-}
-.loginform .rightloginform {
-width: 49%;
-}
-.loginform .leftlogin_image {
-width: 49%;
 }
 .createform .login_inputsdiv .input-group-text {
 padding: 3px 7px 3px 5px;
@@ -167,16 +273,32 @@ font-size: 16px;
 }
 @media only screen and (max-width: 800px) and (min-width: 769px) {
 .loginform .leftlogin_image {
-width: 49%;
+width: 45%;
+}
+.rightloginform .passwd_success h4 {
+    font-size: 28px;
+    width: 100%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 130px;
+}
+.accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+    font-size: 16px;
 }
 .rightloginform h4 {
-    font-size: 24px;
+font-size: 24px;
+}
+.loginform .leftlogin_image img {
+    bottom: 63px;
+    left: 9%;
+    height: 67px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform {
-width: 49%;
+width: 54.5%;
 }
 .form_div {
 width: 98%;
@@ -190,13 +312,38 @@ padding: 3px 7px 3px 13px;
 .accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
 font-size: 16px;
 }
+.login_inputsdiv .flex_inpt_div input.form-control {
+    height: 49px;
+}
 }
 @media only screen and (max-width: 768px) and (min-width: 641px) {
 .loginform .leftlogin_image {
-    width: 48%;
+width: 48%;
+}
+.rightloginform .passwd_success h4 {
+    font-size: 25px;
+    width: 100%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 120px;
+}
+.accountcreate_btn .btn.accountbtn, .getstarted_btn .btn.btnget_start {
+    font-size: 16px;
+}
+.login_inputsdiv .flex_inpt_div input.form-control {
+    height: 49px;
+}
+.verfi_section {
+    margin: 2em 0 0 0;
+}
+.loginform .leftlogin_image img {
+    bottom: 52px;
+    left: 12%;
+    height: 62px;
 }
 .loginform .rightloginform {
-    width: 50%;
+width: 50%;
 }
 .form_div {
 width: 99%;
@@ -205,28 +352,47 @@ width: 99%;
 font-size: 14px;
 }
 .rightloginform h4 {
-    font-size: 24px;
+font-size: 24px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 576px){
 .loginform .rightloginform {
-width: 45%;
+width: 49%;
+}
+.rightloginform .passwd_success h4 {
+    font-size: 25px;
+    width: 100%;
+    line-height: 32px;
+}
+.pass_inputsdiv img {
+    height: 110px;
+}
+.verfi_section {
+    margin: 2em 0 0 0;
 }
 .loginform .leftlogin_image {
-width: 54%;
+width: 50%;
+}
+.try_div {
+    margin: 1.5em 0;
+}
+.loginform .leftlogin_image img {
+    bottom: 60px;
+    left: 12%;
+    height: 53px;
 }
 .form_div {
 width: 100%;
 }
 .rightloginform h4 {
-    font-size: 24px;
+font-size: 24px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .rightloginform h4 {
 font-size: 24px;
@@ -249,14 +415,46 @@ height: 42px;
 .mobile_headerview{
 display:block;
 }
+.pass_inputsdiv {
+    margin: 3.5em 0;
+}
+.rightloginform .passwd_success h4 {
+    font-size: 32px;
+    width: 100%;
+    line-height: 41px;
+}
+.pass_inputsdiv img {
+    height: 116px;
+}
+.create_passwd p {
+    font-size: 13px;
+}
+.login_inputsdiv input.form-control {
+    font-size: 13px;
+}
+.login_inputsdiv .flex_inpt_div input.form-control {
+    height: 46px;
+}
+.verfi_section {
+    margin: 3.5em 0 0 0;
+}
+.try_div {
+    margin: 1.7em 0;
+}
+.back_login a {
+    font-size: 16px;
+}
 .social_mediadiv {
-    margin: 2em 0;
+margin: 2em 0;
+}
+.verfi_section p {
+    font-size: 15px;
 }
 .rightloginform h4 {
-    font-size: 24px;
+    font-size: 32px;
 }
 .social_mediadiv.loginnow {
-    margin: 3em 0 1em 0;
+margin: 3em 0 1em 0;
 }
 .loginform .rightloginform{
 background-image: unset;
@@ -286,20 +484,23 @@ font-size: 16px;
 .logomobile {
 padding: 0 0 0 4em;
 }
+.verfi_section {
+    margin: 2.5em 0 0 0;
+}
 .headermobile {
 padding: 0px 2em;
 }
 .rightloginform h4 {
-    font-size: 27px;
+font-size: 27px;
 }
 .social_mediadiv.loginnow {
-    margin: 2.3em 0 1em 0;
+margin: 2.3em 0 1em 0;
 }
 .form_div {
 width: 93%;
 }
 .accountcreate_btn {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 
 .mobile_headerview {
@@ -314,14 +515,21 @@ height: 84px;
 .form_div {
 width: 93%;
 }
+.rightloginform .passwd_success h4 {
+    font-size: 30px;
+    line-height: 37px;
+}
+.verfi_section {
+    margin: 2.5em 0 0 0;
+}
 .login_inputsdiv .form-group{
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .rightloginform h4 {
-    font-size: 27px;
+font-size: 27px;
 }
 .social_mediadiv.loginnow {
-    margin: 2em 0 0.6em 0;
+margin: 2em 0 0.6em 0;
 }
 .headermobile {
 height: 80px;
@@ -343,18 +551,25 @@ font-size: 27px;
 .form_div {
 width: 95%;
 }
+.rightloginform .passwd_success h4 {
+    font-size: 30px;
+    line-height: 37px;
+}
+.verfi_section {
+    margin: 2.5em 0 0 0;
+}
 .accountcreate_btn {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .login_inputsdiv .form-group{
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .rightloginform h4 {
-    font-size: 27px;
-    margin: 0 0 18px 0;
+font-size: 27px;
+margin: 0 0 18px 0;
 }
 .social_mediadiv.loginnow {
-    margin: 2em 0 0.6em 0;
+margin: 2em 0 0.6em 0;
 }
 .mobile_headerview {
 height: 133px;
@@ -370,7 +585,7 @@ font-size: 27px;
 padding: 0 0 0 2.4em;
 }
 .social_img img {
-    height: 40px;
+height: 40px;
 }
 }
 
@@ -378,21 +593,24 @@ padding: 0 0 0 2.4em;
 .form_div {
 width: 95%;
 }  
+.verfi_section {
+    margin: 2.5em 0 0 0;
+}
 .accountcreate_btn {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .social_img img {
-    height: 40px;
+height: 40px;
 }
 .login_inputsdiv .form-group{
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .rightloginform h4 {
-    font-size: 24px;
-    margin: 0 0 18px 0;
+font-size: 24px;
+margin: 0 0 18px 0;
 }
 .social_mediadiv.loginnow {
-    margin: 2em 0 0.6em 0;
+margin: 2em 0 0.6em 0;
 }
 .mobile_headerview {
 height: 133px;
@@ -444,6 +662,6 @@ font-size: 14px;
 height: 41px;
 }
 .login_inputsdiv input.form-control {
-    font-size: 13px;
+font-size: 13px;
 }
 }
