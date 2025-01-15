@@ -185,10 +185,11 @@ background: #EDF2FA;
 box-shadow: 5px 4px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
 border-radius: 17px;
 align-items: center;
-padding: 13px;
+    padding: 13px;
+justify-content: space-between;
 margin: 0 0 20px 0;
 }
-.selectoptiondiv .media .media-body h2{
+.selectoptiondiv .media .hm_owntxt h2{
 font-family: 'Helvetica';
 font-weight: 700;
 font-size: 18px;
@@ -205,16 +206,13 @@ line-height: 19px;
 color: #315D80;
 margin: 0px 3em 0 0px;
 }
-.selectoptiondiv .media a{
-display: flex;
-width: 100%;
-align-items: center;
-}
+
 .selectoptiondiv .media .media-body{
     flex:unset
 }
 .selectoptiondiv .media h3 {
-    margin: 5px 0em 0 46px;
+    margin: 0;
+    text-align: right;
 }
 .app_flex{
     display: flex;
@@ -246,9 +244,27 @@ text-align: center;
 color: #FFFFFF;
 margin:0;
 }
+.img_option{
+    flex:15%;
+}
+.hm_owntxt{
+    flex:35%;
+    border-right: 1px solid rgba(146, 163, 180, 0.3);
+}
+.img_option img{
+    height:68px;
+width: 68px;
+}
+.home_ptxt{
+    flex:53%;
+    padding: 0 40px 0 0px;
+}
+.home_ptxt.rentprop{
+    padding: 0 60px 0 0px;  
+}
 .optionwidth_div{
-width: 60%;
-margin:0 auto
+    width: 58.8%;
+    margin: 0 auto;
 }
 .createacc_btn{
     margin: 0.4em 0 0 0;
