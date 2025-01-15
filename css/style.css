@@ -67,8 +67,9 @@ color: #315D80;
 margin: 0 0 25px 0;
 }
 .frgt_andemail{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1.3em 0 2.5em;
 }
 .login_inputsdiv input.form-control{
 background: #EDF2FA;
@@ -102,17 +103,19 @@ color:#6388A5;
 color:#6388A5;
 }
 .form_div {
-    width: 54%;
+    width:424px;
     margin: 0 auto;
 }
-.rememberemail label.form-check-label{
-color:#315D80;
-font-size: 14px;
-text-transform: capitalize;
+.rememberemail label.form-check-label {
+    color: #315D80;
+    font-size: 12px;
+    font-family: 'Helvetica';
+    text-transform: capitalize;
 }
 .checkbox-round {
 width: 11px;
 height: 11px;
+margin-top: 3.2px;
 background-color: white;
 border-radius: 4px;
 vertical-align: middle;
@@ -127,8 +130,9 @@ font-family: 'Helvetica';
 font-style: normal;
 font-weight: 500;   
 color:#315D80;
-font-size: 14px;
+font-size: 12px;
 }
+
 .checkbox-round:checked {
 background-color: #315D80;
 border: 1px solid #000000;
@@ -139,7 +143,7 @@ border-radius: 100px;
 font-family: 'Helvetica';
 font-weight: bold;
 font-size: 18px;
-line-height: 27px;
+line-height: 20px;
 text-transform: capitalize;
 color: #FFFFFF;
 border: unset;
@@ -151,7 +155,6 @@ background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
 }
 .accountcreate_btn .btn.accountbtn{
 background: #315D80;
-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 }
 .social_img{
 display: flex;
@@ -160,13 +163,15 @@ margin: 0 0 2em 0;
 }
 .social_mediadiv p{
 font-family: 'Helvetica';
-font-weight: 500;
-font-size: 15px;
+font-weight: 400;
+font-size: 14px;
 line-height: 22px;
 color: #315D80;
+margin:0 0 7px 0;
 }
 .social_img img{
-margin: 0 17px;
+    margin: 0 17px;
+    height: 33px;
 }
 .social_mediadiv{
 text-align: center;
@@ -251,13 +256,9 @@ margin:0 auto
 .login_inputsdiv.creat_login input.form-control{
 height:42px;
 }
-.rightloginform h4.createacc {
-    margin: 10px 0 15px 0;
-}
 .tnc label.form-check-label {
     color: #315D80;
     font-size: 12px;
-    text-transform: capitalize;
     margin: 0 0 0 18px;
 }
 .loginnow .getstarted_btn .btn.btnget_start{
@@ -265,11 +266,8 @@ background: #315D80;
 box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 4px 4px 10px 1px #468DC4;
 border-radius: 40px;
 }
-.social_mediadiv.loginnow{
-margin: 4em 0 0 0;
-}
 .social_mediadiv.loginnow .createacc_btn {
-margin: 1em 0 0 0;
+margin:0.7em 0 0 0;
 }
 .mobile_headerview{
 display:none;
@@ -279,7 +277,7 @@ background-repeat: no-repeat;
 background-image: url(../images/mobilehead.svg);
 background-size: cover;
 background-position: bottom;
-height: 150px;
+height: 181px;
 }
 .arrowmobile a{
 background: #376990;
@@ -291,14 +289,11 @@ padding: 14px 11px;
 color: #EEF4FF;
 font-size: 20px;
 }
-.headermobile{
-display: flex;
-align-items: center;
-height: 90px;
-padding: 0px 3em;
-}
-.logomobile{
-padding: 0 0 0 5em;
+.headermobile {
+    display: flex;
+    align-items: center;
+    height: 115px;
+    justify-content: center;
 }
 .try_div,.back_login{
 text-align: center;
@@ -316,7 +311,7 @@ color: #315D80;
 font-size: 14px;
 }
 .try_div{
-margin:2em 0;
+    margin: 1.3em 0 1.9em 0;
 }
 .back_login{
 margin:4em 0 1em 0; 
@@ -333,7 +328,7 @@ color: #9BB997;
 .verfi_section p{
 font-family: 'Helvetica';
 font-weight: 500;
-font-size: 14px;
+font-size: 12px;
 line-height: 19px;
 color: #315D80;
 text-align: center;
@@ -344,16 +339,16 @@ display: flex;
 margin:1.5em 0 0 0;
 }
 .login_inputsdiv .flex_inpt_div input.form-control{
-text-align: center;
-width: 93%;
-margin: 0 auto;
-height: 55px;
+    text-align: center;
+    width: 101px;
+    margin: 0 3px;
+    height: 46px;
 }
 .verfi_section{
 margin:2.5em 0 0 0;
 }
-.verif_txt{
-margin:1em 0 2.5em 0; 
+.verif_txt {
+    margin: 0.7em 0 2.3em 0;
 }
 .create_passwd p{
 font-family: 'Helvetica';
@@ -374,18 +369,17 @@ margin:4em 0 0 0;
 color:#9BB997;
 }
 .passwd_success h4{
-width: 75%;
-margin: 0 auto;
-font-size: 28px;
-line-height: 32px;
+margin: 0 auto 3em auto;
+font-size: 32px;
+line-height: 36px;
 }
 .pass_inputsdiv{
-text-align: center;
-margin: 2.5em 0;
+    text-align: center;
+    margin: 0 0 2em 0;
 }
 .pass_inputsdiv img{
 height: 95px;
 }
-.creat_login .form-group{
-    margin-bottom: 10px;
+.tnc{
+    text-align: center;
 }
